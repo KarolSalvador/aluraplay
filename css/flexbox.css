@@ -10,7 +10,16 @@
 .cabecalho__pesquisar__item {
     display: none;
 }
-/*Fim cabeçalho*/
+
+/* Inicio Seção Superior */
+.superior__secao__container {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    overflow: scroll;
+    gap: 15px;
+}
+
 
 /*Inicio Rodapé*/
 .rodape__container {
@@ -20,7 +29,7 @@
     flex-flow: column wrap; /*Flex flow adiciona faz o flex-direction e wrap em única linha*/
 }
 
-/*Fim Rodapé*/
+
 
 @media (min-width: 834px) {
 
