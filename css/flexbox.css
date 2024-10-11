@@ -1,4 +1,7 @@
 .cabecalho__container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    position: fixed; /*deixa o cabeçalho fixo no topo*/
+    top: 0; /*informa qual será a distância que o cabeçalho ficará distante do topo*/
 }
