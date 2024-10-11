@@ -50,6 +50,12 @@
     gap: 15px;
 }
 
+/* Início Vídeos */
+.videos__item {
+    height: 303px;
+    width: 280px;
+}
+
 /*Início Rodapé*/
 .rodape__container {
     display: flex;
