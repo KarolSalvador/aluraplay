@@ -1,3 +1,4 @@
+/*Inicio cabeçalho*/
 .cabecalho__container {
     display: flex;
     justify-content: space-between;
@@ -9,11 +10,27 @@
 .cabecalho__pesquisar__item {
     display: none;
 }
+/*Fim cabeçalho*/
+
+/*Inicio Rodapé*/
+.rodape__container {
+    display: flex;
+/*    flex-direction: column;
+    flex-wrap: wrap;*/
+    flex-flow: column wrap; /*Flex flow adiciona faz o flex-direction e wrap em única linha*/
+}
+
+/*Fim Rodapé*/
 
 @media (min-width: 834px) {
 
+    /* CABEÇALHO */
     .cabecalho__pesquisar__item {
         display: block;
     }
     
+    /* RODAPÉ */
+    .rodape__container {
+        justify-content: space-between;
+    }
 }
